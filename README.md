@@ -84,15 +84,7 @@ The prototype is evaluated for:
 
 ## Tools
 
-List only tools actually used, such as:
-
-- Make
-- OpenAI
-- Google Sheets
-- Power Automate
-- Power BI
-- Excel
-- GitHub
+TBD
 
 ## Limitations
 
@@ -102,9 +94,9 @@ high-impact decision-making.
 
 ## Repository Contents
 
-Explain what each folder contains.
+TBD
 
 ## About the Author
-
+TBD
 Briefly explain your transformation, risk, process-improvement, and
 program-management experience.
