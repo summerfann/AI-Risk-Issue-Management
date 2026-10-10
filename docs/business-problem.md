@@ -1,0 +1,95 @@
+# Business Problem
+
+## Background
+
+Organizations use formal issue-management processes to document operational problems, control weaknesses, policy exceptions, audit findings, and other risks requiring remediation. These issues may originate from multiple business areas and can vary considerably in complexity, severity, and documentation quality.
+
+Before an issue can be evaluated, assigned, and remediated, a risk professional must review the submission, determine whether required information is present, assess the potential impact, identify the relevant risk category, and decide whether the issue requires escalation.
+
+## Current-State Problem
+
+Issue submissions are frequently written in inconsistent formats and may omit important information, such as:
+
+- The process or control that failed
+- The underlying cause of the problem
+- The affected products, customers, systems, or business areas
+- The duration and frequency of the issue
+- Supporting evidence
+- Existing compensating controls
+- The potential financial, regulatory, operational, or customer impact
+- The proposed remediation owner and target date
+
+Risk professionals must manually review each submission, request missing information, interpret unstructured descriptions, and determine how the issue should be categorized and routed.
+
+This process can create several challenges:
+
+1. **Inconsistent documentation:** Similar issues may be described and assessed differently depending on the person submitting or reviewing them.
+2. **Repeated rework:** Reviewers must return incomplete submissions to the business for clarification.
+3. **Delayed triage:** High-risk issues may not be identified and escalated promptly.
+4. **Classification variation:** Reviewers may apply risk categories or severity criteria inconsistently.
+5. **Weak remediation plans:** Proposed actions may address an immediate symptom without correcting the underlying process or control weakness.
+6. **Limited reporting:** Inconsistent fields and descriptions make it difficult to identify recurring themes, systemic risks, and remediation trends.
+7. **Reviewer capacity constraints:** Skilled risk professionals spend substantial time summarizing and organizing information instead of applying judgment and effective challenge.
+
+## Business Impact
+
+An inefficient issue-intake process can increase the time required to evaluate and remediate risks. It may also contribute to incomplete audit trails, inconsistent management reporting, missed dependencies, repeated control failures, and delayed escalation of material concerns.
+
+The organization needs a more consistent and efficient way to perform preliminary issue review without delegating final risk decisions to an automated system.
+
+## Proposed Opportunity
+
+This project explores how generative AI and workflow automation could assist risk professionals by:
+
+- Summarizing unstructured issue descriptions
+- Checking whether required information is present
+- Identifying questions that must be answered before review
+- Recommending a preliminary risk category
+- Highlighting potential control gaps
+- Drafting possible remediation considerations
+- Identifying issues requiring enhanced review or escalation
+- Structuring information for management reporting
+
+The AI-generated analysis would serve as a preliminary recommendation only. A qualified human reviewer would remain responsible for validating the information, challenging the analysis, assigning the final classification and severity, approving remediation plans, accepting risk, and authorizing issue closure.
+
+## Project Objective
+
+The objective is to design and test an AI-assisted issue-management workflow that improves the completeness, consistency, and speed of preliminary issue review while preserving human accountability and an auditable decision process.
+
+The prototype will be evaluated against the following outcomes:
+
+- Reduced number of incomplete submissions
+- Reduced time required for preliminary triage
+- Improved consistency of issue summaries and classifications
+- Increased detection of missing evidence
+- Appropriate escalation of ambiguous or potentially high-risk issues
+- Improved structure and completeness of remediation plans
+- Clear documentation of AI recommendations and human decisions
+- No unauthorized automated risk acceptance or issue closure
+
+## Scope
+
+The prototype will:
+
+- Use only fictional, synthetic issue information
+- Analyze structured and unstructured issue descriptions
+- Produce preliminary recommendations
+- Identify missing information and uncertainty
+- Route outputs to a human reviewer
+- Record whether the reviewer accepted, modified, or rejected the recommendation
+- Generate information suitable for a prototype governance dashboard
+
+The prototype will not:
+
+- Make final risk-classification or severity decisions
+- Determine legal or regulatory compliance
+- Approve remediation plans
+- Accept residual risk
+- Close issues
+- Make decisions affecting customers or employees
+- Access confidential, personal, customer, or employer information
+- Operate as a production risk-management system
+
+## Project Disclaimer
+
+This is an independent educational portfolio project. All organizations, processes, records, risks, and results are fictional. The project does not contain or reproduce confidential employer, customer, employee, regulatory, or proprietary information.
