@@ -1,7 +1,7 @@
 # Business Problem
 
 ## Background
-
+Remove duplicate file
 Organizations use formal issue-management processes to document operational problems, control weaknesses, policy exceptions, audit findings, and other risks requiring remediation. These issues may originate from multiple business areas and can vary considerably in complexity, severity, and documentation quality.
 
 Before an issue can be evaluated, assigned, and remediated, a risk professional must review the submission, determine whether required information is present, assess the potential impact, identify the relevant risk category, and decide whether the issue requires escalation.
